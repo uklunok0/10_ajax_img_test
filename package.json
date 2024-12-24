@@ -1,0 +1,23 @@
+{
+  "name": "10_ajax_img_test",
+  "version": "1.0.0",
+  "description": "ajax request for download images from host ",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "I'am",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.7.3",
+    "express": "^4.19.2",
+    "sass": "^1.77.8"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^3.1.4",
+    "tiny-slider": "^2.9.4"
+  }
+}
